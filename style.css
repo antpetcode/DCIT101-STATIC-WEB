@@ -1,21 +1,22 @@
 
 html,
 background{
-  background-color: rgba(222, 222, 235, 0.897) ; 
+  background-color: rgba(230, 244, 247, 0.897) ; 
 }
 body {
   height: 100%;
 }
 body {
-  display: flex;
+  display: inline;;
   flex-wrap: wrap;
   margin: 0;
 }
 .header-menu,
 footer {
-  display: flex;
-  align-items: center;
+  display: inline-flex;
+  align-items: flex-end;
   width: 100%;
+  text-align: center;
 }
 .header-menu {
   justify-content: flex-end;
@@ -23,13 +24,14 @@ footer {
   background: #1ec0c5;
   color: rgb(24, 4, 4);
 }
+p{text-indent: 9em;}
 h1{font-size: xx-large; text-align: center;
-  color: rgb(8, 2, 36); 
+  color: rgb(8, 2, 36) ;
 }
 h2 {
   margin: 0 0 8px;
   color: rgb(4, 51, 113);
-  text-align: center;
+  text-align: left;
 }
 ul li {
   display: inline-block;
@@ -51,6 +53,8 @@ footer {
 }
 h1{text-align: center;}
 body{ font-style: italic; font-size: larger;
+  word-spacing: 0.1cm;
+  line-height: 1.5cm;
 }
 background{
   background-image: -moz-radial-gradient(rgb(206, 191, 110)); background-color: darkslategrey;
